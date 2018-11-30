@@ -1,6 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: ##F18260;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+  line-height: 75%;
+  line-height: 2em;
+  line-height: normal;
 }
 
 nav {
@@ -8,6 +13,35 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  text-decoration: none;
+}
+
+p {
+  font-size: 100%;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  padding-bottom: 15px;
+  line-height: 24px;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.author {
+  font-style: italic;
 }
 
 .logo {
@@ -30,16 +64,19 @@ nav {
 
 .right {
   float: right;
+  text-decoration: none;
 }
 
 ul {
   list-style-type: none;
   float: right;
+  text-decoration: none;
 }
 
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
 }
 
 article {
